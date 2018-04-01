@@ -1,0 +1,22 @@
+[user]
+  name = technuma
+  email = technuma@gmail.com
+[color]
+  ui = auto
+[alias]
+  s = status -sb
+  d = diff
+  o = checkout
+  b = branch
+  c = commit
+  a = add
+  p = push
+  f = fetch
+  m = merge
+  l = log --decorate --all --graph
+  lm = log --merges --pretty='format:%s'
+  cleanup = !git branch --merged | grep -v \\* | xargs -I % git branch -d %
+[core]
+  editor = /usr/bin/vim
+[push]
+  default = current
