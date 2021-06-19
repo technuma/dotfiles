@@ -1,4 +1,7 @@
 call plug#begin()
+Plug 'junegunn/seoul256.vim'
+let g:seoul256_background = 233
+
 Plug 'scrooloose/nerdtree'
 nnoremap <C-e> :NERDTreeToggle<CR>
 let NERDTreeShowHidden=1
@@ -18,3 +21,4 @@ syntax on
 set autoindent
 set tabstop=2 shiftwidth=2 expandtab
 set encoding=utf-8
+colo seoul256
