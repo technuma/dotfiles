@@ -15,6 +15,8 @@ elseif has("unix")
   let g:ctrlp_map = '<c-k>'
   let g:ctrlp_cmd = 'CtrlP'
 end
+
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
 syntax on
