@@ -20,6 +20,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
 syntax on
+set number
 set autoindent
 set tabstop=2 shiftwidth=2 expandtab
 set encoding=utf-8
