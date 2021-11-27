@@ -3,3 +3,5 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 ln .vimrc ~/.vimrc
 ln .tmux.conf ~/.tmux.conf
 ln .gitconfig ~/.gitconfig
+ln .zshrc ~/.zshrc
+ln .bundle/config ~/.bundle/config
