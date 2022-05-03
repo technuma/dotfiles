@@ -16,6 +16,7 @@
   l = log --decorate --all --graph
   lm = log --merges --pretty='format:%s'
   cleanup = !git branch --merged | grep -v \\* | xargs -I % git branch -d %
+  ignored = !git ls-files -v | grep "^[[:lower:]]"
 [core]
   editor = /usr/bin/vim
 [push]
